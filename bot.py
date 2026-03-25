@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-TOKEN = "8621215028:AAENtTWCyV6DLzhpVpdJbKWwdZsQ_7Shq7k"
+TOKEN = "8626547541:AAGV5E4OIHmRIWCakQaSjAMK17PhBXrsPI0"
 
 def convert_link(text: str) -> str:
     if "instagram.com/reel/" in text:
